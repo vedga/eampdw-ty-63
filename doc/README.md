@@ -48,3 +48,18 @@ SDA - pin 25 MCU (P2.4/MISO_2/I2C_SDA2)
 SCL - pin 26 MCU (P2.5/SCLK_2/I2C_SCL2)
 
 WP - GND
+
+
+## Keyboard & LED ##
+
+Pin 24 MCU (P2.3) - common for all LED cathode
+
+Pin 29 MCU (P0.0) - PULSE LED (green)
+
+Pin 23 MCU (P2.2) - WiFi LED (red), SET button from anode LED and GND
+
+Pin 22 MCU (P2.1) - V LED (red), UP button from anode LED and GND
+
+Pin 21 MCU (P2.0) - A LED (red), DOWN button from anode LED and GND
+
+Pin 30 MCU (P0.1) - L LED (red), ON/OFF button from anode LED and GND
