@@ -32,7 +32,7 @@ MCU program socket
 
 [4] Pin 3 MCU (T2/PWM2P/ADC2/P1.2) Analog input, about +1.465V on 230V AC (not used?)
 
-[5] Pin 7 MCU (PWM4P/ADC6/P1.6/RxD3) Inpit data from HLW8032 (4800BPS, 8E1)
+[5] Pin 7 MCU (PWM4P/ADC6/P1.6/RxD3) Input data from HLW8032 (4800BPS, 8E1)
 
 [6] Pin 8 MCU (PWM5_2/PWM4N/ADC7/TxD3) Output data to HLW8032 (reserved?)
 
