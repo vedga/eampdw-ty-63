@@ -63,3 +63,14 @@ Pin 22 MCU (P2.1) - V LED (red), UP button from anode LED and GND
 Pin 21 MCU (P2.0) - A LED (red), DOWN button from anode LED and GND
 
 Pin 30 MCU (P0.1) - L LED (red), ON/OFF button from anode LED and GND
+
+
+## HT1621B LCD CONTROLLER ##
+
+HT1621B pin 9 ^CS - pin 20 (P3.7) MCU
+
+HT1621B pin 10 ^RD - N/C
+
+HT1621B pin 11 ^WR - pin 16 (P3.3) MCU
+
+HT1621B pin 12 DATA - pin 15 (P3.2) MCU
