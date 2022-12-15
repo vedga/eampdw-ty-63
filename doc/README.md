@@ -1,8 +1,10 @@
 ### At middle point (see photo) can connect +12V/2A for power MCU and main board equipments. ###
 
+MCU board use +5V VCC. Main board also supply 3.3V for WiFi communication module CB3S
+
 ## BOARD AB86653 (MCU) ##
 
-MCU program socket
+MCU program/debug socket
 
 [1] GND
 
@@ -36,6 +38,15 @@ MCU program socket
 
 [6] Pin 8 MCU (PWM5_2/PWM4N/ADC7/TxD3) Output data to HLW8032 (reserved?)
 
+## CB3S SOCKET ##
+
+[1] - GND
+
+[2] - CB3S VCC (+3.3V)
+
+[3] - CB3S Tx1/P11/D11 connected via level shifter to the pin 1 MCU (Tx1)
+
+[4] - CB3S Rx1/P10/D10 connected via level shifter to the pin 2 MCU (Rx1)
 
 ## ATML143 ###
 
